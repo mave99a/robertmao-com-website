@@ -1,0 +1,37 @@
+name: upload-blocklet-page
+
+on:
+  push:
+    branches:
+      - main
+jobs:
+  Deploy:
+    runs-on: ubuntu-latest
+
+    if: "! contains(toJSON(github.event.commits.*.message), '[skip actions]')"
+
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+          cache: 'yarn'
+
+      - name: Install dependencies
+        run: yarn
+
+      - name: Blocklet workflow
+        uses: blocklet/action-workflow@v1
+        with:
+          skip-deps: false
+          skip-upload: true
+          skip-deploy: false
+          skip-release: true
+          skip-bundle: false
+          bundle-command: yarn bundle
+          server-endpoint: ${{ secrets.BLOCKLETSERVER_ENDPOINT }}
+          server-access-key: ${{ secrets.BLOCKLETSERVER_ACCESS_KEY }}
+          server-access-secret: ${{ secrets.BLOCKLETSERVER_ACCESS_SECRET }}
+          slack-webhook: ${{ secrets.SLACK_WEBHOOK }}
