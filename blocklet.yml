@@ -26,26 +26,26 @@ interfaces:
   - type: web
     name: publicUrl
     path: /
-    prefix: "*"
+    prefix: '*'
     port: BLOCKLET_PORT
     protocol: http
     services:
-      - name: "@abtnode/auth-service"
+      - name: '@abtnode/auth-service'
         config:
-          blockUnauthenticated: true
-community: ""
-documentation: ""
-homepage: ""
-license: ""
+          blockUnauthenticated: false
+community: ''
+documentation: ''
+homepage: ''
+license: ''
 payment:
   tokens: []
   shares: []
 timeout:
   start: 60
 requirements:
-  abtnode: ">=1.6.22"
-  os: "*"
-  cpu: "*"
+  abtnode: '>=1.6.22'
+  os: '*'
+  cpu: '*'
 scripts:
   dev: npm run start
 environments: []
