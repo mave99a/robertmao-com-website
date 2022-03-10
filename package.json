@@ -10,7 +10,22 @@
     "upload": "npm run bundle && blocklet upload .blocklet/release/blocklet.json"
   },
   "dependencies": {
-    "@xmark/cli": "^2.0.11"
+    "@arcblock/did-connect": "^1.16.36",
+    "@arcblock/ux": "^1.16.36",
+    "@emotion/react": "^11.8.1",
+    "@fontsource/rubik": "^4.5.3",
+    "@iconify-json/mdi": "^1.1.1",
+    "@iconify-json/uim": "^1.1.1",
+    "@material-ui/core": "4.12.3",
+    "@popperjs/core": "^2.11.2",
+    "@xmark/cli": "^2.0.16",
+    "@xmark/theme-arcblock": "^2.0.16",
+    "@xmark/utils": "^2.0.16",
+    "ahooks": "^3.1.11",
+    "path-browserify": "^1.0.1",
+    "prop-types": "^15.8.1",
+    "react": "^17.0.2",
+    "react-router-dom": "^6.2.2"
   },
   "name": "robertmao-com-website"
 }
