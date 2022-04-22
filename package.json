@@ -15,7 +15,7 @@
     "@emotion/react": "^11.8.2",
     "@xmark/cli": "^2.0.28",
     "@xmark/theme-arcblock": "^2.0.28",
-    "@xmark/utils": "^2.0.28",
+    "@xmark/utils": "2.0.37",
     "ahooks": "^3.1.13",
     "flat": "^5.0.2",
     "less": "^4.1.2",

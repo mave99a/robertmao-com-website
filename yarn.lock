@@ -1115,11 +1115,20 @@
     react "^17.0.2"
     react-router-dom "^6.2.2"
 
-"@xmark/utils@2.0.28", "@xmark/utils@^2.0.28":
+"@xmark/utils@2.0.28":
   version "2.0.28"
   resolved "https://registry.yarnpkg.com/@xmark/utils/-/utils-2.0.28.tgz#8fedc8d4484f4bbc474831c1ebefa4be3e378ada"
   integrity sha512-y2sJaGYBh+dTT1mZWuCVgZcmQ8Ho8bpLaLDPykP/mFAT/C21mN29atW42oM2EH27PbfGPU4KGA9IESy4eApRvQ==
   dependencies:
+    react "^17.0.2"
+    react-use "^17.3.2"
+
+"@xmark/utils@2.0.37":
+  version "2.0.37"
+  resolved "https://registry.yarnpkg.com/@xmark/utils/-/utils-2.0.37.tgz#525ea64a85e9e6464fa149b1ee1cdf94b777e4dc"
+  integrity sha512-BtywBW/SmBcQx00tC1GjUtgdKVA2emib2WGXV80fw3BW9GFLQbQFZ1IwJt4Fj5WEBOgR6sDyj0nNrXFR2czcLg==
+  dependencies:
+    base-x "^4.0.0"
     react "^17.0.2"
     react-use "^17.3.2"
 
@@ -1249,6 +1258,11 @@ bail@^2.0.0:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/bail/-/bail-2.0.2.tgz#d26f5cd8fe5d6f832a31517b9f7c356040ba6d5d"
   integrity sha512-0xO6mYd7JB2YesxDKplafRpsiOzPt9V02ddPCLbY1xYGPOX24NTyN50qnUxgCPcSoYMhKpAuBTjQoRZCAkUDRw==
+
+base-x@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/base-x/-/base-x-4.0.0.tgz#d0e3b7753450c73f8ad2389b5c018a4af7b2224a"
+  integrity sha512-FuwxlW4H5kh37X/oW59pwTzzTKRzfrrQwhmyspRM7swOEZcHtDZSCt45U6oKgtuFE+WYPblePMVIPR4RZrh/hw==
 
 base64-url@^2.3.3:
   version "2.3.3"
