@@ -16,7 +16,7 @@
     "@xmark/cli": "^2.0.28",
     "@xmark/theme-arcblock": "^2.0.28",
     "@xmark/utils": "^2.0.28",
-    "ahooks": "^3.1.13",
+    "ahooks": "3.3.10",
     "flat": "^5.0.2",
     "less": "^4.1.2",
     "path-browserify": "^1.0.1",
