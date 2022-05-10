@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@arcblock/did-connect": "^1.16.43",
-    "@arcblock/ux": "^1.16.43",
+    "@arcblock/ux": "1.17.18",
     "@emotion/react": "^11.8.2",
     "@xmark/cli": "^2.0.28",
     "@xmark/theme-arcblock": "^2.0.28",
