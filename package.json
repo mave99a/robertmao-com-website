@@ -10,7 +10,7 @@
     "upload": "npm run bundle && blocklet upload .blocklet/release/blocklet.json"
   },
   "dependencies": {
-    "@arcblock/did-connect": "^1.16.43",
+    "@arcblock/did-connect": "1.17.18",
     "@arcblock/ux": "^1.16.43",
     "@emotion/react": "^11.8.2",
     "@xmark/cli": "^2.0.28",
