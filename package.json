@@ -24,6 +24,7 @@
     "react": "^17.0.2",
     "react-router-dom": "^6.2.2",
     "react-twitter-embed": "^4.0.4",
+    "react-youtube": "^9.0.1",
     "styled-components": "^5.3.3"
   },
   "name": "robertmao-com-website"
