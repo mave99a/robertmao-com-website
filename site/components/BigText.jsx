@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import urlFileManager from 'less/lib/less-node/url-file-manager';
 
-function BigText({ tag, text, size }) {
+function BigText({ tag, text, size, bg }) {
   return (
     <div
       flex=""
@@ -13,7 +13,7 @@ function BigText({ tag, text, size }) {
         padding: `50px`,
         fontFamily: `Calibre-R,sans-serif`,
         letterSpacing: `-.04em`,
-        background: `url(https://cdn.coda.io/assets/8438f078d683/img/bg-tomato.jpg)`,
+        background: `${bg}`,
       }}>
       <div>{tag}</div>
       <div>{text}</div>
@@ -25,6 +25,7 @@ BigText.propTypes = {
   tag: PropTypes.string,
   text: PropTypes.string,
   size: PropTypes.string,
+  bg: PropTypes.string,
 };
 
 BigText.defaultProps = {
