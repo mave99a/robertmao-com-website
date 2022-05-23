@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import urlFileManager from 'less/lib/less-node/url-file-manager';
 
 function BigText({ tag, text, size, bg }) {
   return (
