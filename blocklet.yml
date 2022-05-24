@@ -16,9 +16,9 @@ repository:
   url: git+https://github.com/blocklet/create-blocklet.git
 specVersion: 1.1.1
 version: 0.1.0
-logo: logo.png
+logo: public/logo.png
 files:
-  - logo.png
+  - public/logo.png
   - README.md
   - blocklet.md
   - screenshots
