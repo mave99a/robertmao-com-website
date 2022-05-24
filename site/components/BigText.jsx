@@ -12,7 +12,7 @@ function BigText({ tag, text, size, bg }) {
         padding: `50px`,
         fontFamily: `Calibre-R,sans-serif`,
         letterSpacing: `-.04em`,
-        background: `${bg}`,
+        backgroundImage: `${bg}`,
       }}>
       <div>{tag}</div>
       <div>{text}</div>
