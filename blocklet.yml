@@ -52,3 +52,21 @@ environments: []
 capabilities: {}
 screenshots: []
 children: []
+
+theme:
+  background: '#fff'
+navigation:
+  - title: Home
+    link: /
+  - title: Blog
+    link: /blog/
+  - title: CV
+    link: /cv/
+  - title: '2048'
+    link: /game/2048/
+  - title: Minesweeper
+    link: /game/minesweeper
+  - title: Block Out!
+    link: /game/tower/
+  - title: My links
+    link: /links/
