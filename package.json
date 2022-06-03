@@ -10,9 +10,9 @@
     "upload": "npm run bundle && blocklet upload .blocklet/release/blocklet.json"
   },
   "dependencies": {
-    "@xmark/cli": "^2.0.47",
-    "@xmark/theme-arcblock": "^2.0.47",
-    "@xmark/utils": "^2.0.47",
+    "@xmark/cli": "^2.0.48",
+    "@xmark/theme-arcblock": "^2.0.48",
+    "@xmark/utils": "^2.0.48",
     "react-twitter-embed": "^4.0.4",
     "react-youtube": "^9.0.2"
   },
