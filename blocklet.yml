@@ -14,8 +14,8 @@ author:
 repository:
   type: git
   url: git+https://github.com/blocklet/create-blocklet.git
-specVersion: 1.1.1
-version: 0.1.0
+specVersion: 1.2.7
+version: 0.1.1
 logo: public/logo.png
 files:
   - public/logo.png
@@ -33,13 +33,20 @@ interfaces:
       - name: '@abtnode/auth-service'
         config:
           blockUnauthenticated: false
+          whoCanAccess: all
+          profileFields:
+            - fullName
+            - email
+            - avatar
+          allowSwitchProfile: true
+          webWalletUrl: https://web.abtwallet.io
+          ignoreUrls: []
+          blockUnauthorized: false
 community: ''
 documentation: ''
 homepage: ''
 license: ''
-payment:
-  tokens: []
-  shares: []
+payment: {}
 timeout:
   start: 60
 requirements:
@@ -49,6 +56,8 @@ requirements:
 scripts:
   dev: npm run start
 environments: []
-capabilities: {}
+capabilities:
+  clusterMode: false
+  component: true
 screenshots: []
 children: []
