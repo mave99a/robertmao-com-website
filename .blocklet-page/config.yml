@@ -1,5 +1,9 @@
 name: Robert Mao
 title: Welcome to Robert Mao Personal Space
 description: This is Blocklet Page Demo, powered by Blocklet Page
-siteRoot: site
 theme: arcblock
+github: https://github.com/mave99a/robertmao-com-website
+themeConfig:
+  colors:
+    primary: '#1DC1C7'
+    secondary: '#F0FDFF'

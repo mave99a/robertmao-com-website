@@ -6,11 +6,11 @@ blocks:
     className: text-white
     background:
       image: 'linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12)'
-    left:
+    description:
       - name: InfoBlock
         title: Welcome !
         description: This is My new home powered by Blocklet & XMark. Stay tunned!
-    right:
+    image:
       - name: TwitterTimelineEmbed
         sourceType: profile
         screenName: mave99a
@@ -21,16 +21,17 @@ blocks:
     className: text-black
     background:
       color: '#ffee00'
-    left:
+    description:
       - name: InfoBlock
         title: My Current Project
         description: Checkout the coolest project I am working on!
-    right:
+    image:
       - name: YouTube
         videoId: K-J7qU1CNSo
+    reverse: true
 
   - name: BigText
-    tag:
+    tag: ''
     text: The doc that brings words, data, & teams together.
     size: 5em
     bg: 'linear-gradient(to right top, #ed780e, #ea9800, #e0b600, #d0d400, #b8f03b)'
@@ -39,6 +40,3 @@ blocks:
     size: 2em
     bg: 'linear-gradient(to right top, #ede4e9, #ebe5f3, #e0e9fd, #cfefff, #c1f5fa, #bdf7f5, #bbf9ed, #bdfae4, #b5fbe8, #acfded, #a2fef2, #98fff8)'
 ---
-
-import YouTube from 'react-youtube';
-import { TwitterTimelineEmbed } from 'react-twitter-embed';
