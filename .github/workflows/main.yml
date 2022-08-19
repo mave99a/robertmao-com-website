@@ -27,11 +27,8 @@ jobs:
         with:
           skip-deps: false
           skip-upload: true
-          skip-deploy: false
-          skip-release: true
+          skip-deploy: true
+          skip-release: false
           skip-bundle: false
           bundle-command: yarn bundle
-          server-endpoint: ${{ secrets.BLOCKLETSERVER_ENDPOINT }}
-          server-access-key: ${{ secrets.BLOCKLETSERVER_ACCESS_KEY }}
-          server-access-secret: ${{ secrets.BLOCKLETSERVER_ACCESS_SECRET }}
-          slack-webhook: ${{ secrets.SLACK_WEBHOOK }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
