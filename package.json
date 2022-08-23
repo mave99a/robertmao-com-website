@@ -10,12 +10,12 @@
     "upload": "npm run bundle && blocklet upload .blocklet/release/blocklet.json"
   },
   "dependencies": {
-    "@arcblock/did-connect": "^2.4.10",
-    "@arcblock/ux": "^2.4.10",
+    "@arcblock/did-connect": "^2.4.13",
+    "@arcblock/ux": "^2.4.13",
     "@emotion/react": "^11.10.0",
-    "@xmark/cli": "^2.4.22",
-    "@xmark/theme-arcblock": "^2.4.22",
-    "@xmark/utils": "^2.4.22",
+    "@xmark/cli": "^2.4.29",
+    "@xmark/theme-arcblock": "^2.4.29",
+    "@xmark/utils": "^2.4.29",
     "ahooks": "^3.7.0",
     "flat": "^5.0.2",
     "less": "^4.1.3",

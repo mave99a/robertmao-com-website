@@ -17,11 +17,7 @@ repository:
 specVersion: 1.2.7
 version: 0.2.0
 logo: public/logo.png
-files:
-  - public/logo.png
-  - README.md
-  - blocklet.md
-  - screenshots
+files: []
 interfaces:
   - type: web
     name: publicUrl
@@ -29,19 +25,6 @@ interfaces:
     prefix: '*'
     port: BLOCKLET_PORT
     protocol: http
-    services:
-      - name: '@abtnode/auth-service'
-        config:
-          blockUnauthenticated: false
-          whoCanAccess: all
-          profileFields:
-            - fullName
-            - email
-            - avatar
-          allowSwitchProfile: true
-          webWalletUrl: https://web.abtwallet.io
-          ignoreUrls: []
-          blockUnauthorized: false
 community: ''
 documentation: ''
 homepage: ''
@@ -64,15 +47,3 @@ children: []
 navigation:
   - title: Home
     link: /
-  - title: Blog
-    link: /blog/
-  - title: CV
-    link: /cv/
-  - title: '2048'
-    link: /game/2048/
-  - title: Minesweeper
-    link: /game/minesweeper
-  - title: Block Out!
-    link: /game/tower/
-  - title: My links
-    link: /links/
