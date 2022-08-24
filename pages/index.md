@@ -3,7 +3,6 @@ layout: MyLayout
 
 blocks:
   - name: SectionBlock
-    className: text-white
     background:
       image: 'linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12)'
     description:
@@ -16,7 +15,6 @@ blocks:
         screenName: mave99a
 
   - name: SectionBlock
-    className: text-black
     background:
       color: '#ffee00'
     description:
