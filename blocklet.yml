@@ -1,6 +1,6 @@
 name: robertmao-com-website
-title: robertmao-com-website
-description: A Blocklet Server blocklet
+title: Robert Mao's Personal Web
+description: A personal website powered by Blocklets.
 keywords:
   - blocklet
   - blocklet-page
@@ -9,8 +9,8 @@ group: static
 did: z8iZqYBgoLxkjmo9qseeuyBUTjPk2YZveaTbE
 main: dist
 author:
-  name: Arcblock
-  email: blocklet@arcblock.io
+  name: Robert Mao
+  email: zhihong.mao@gmail.com
 repository:
   type: git
   url: git+https://github.com/blocklet/create-blocklet.git
