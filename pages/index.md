@@ -7,8 +7,8 @@ blocks:
       image: 'linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12)'
     description:
       - name: InfoBlock
-        title: Welcome !
-        description: This is My new home powered by Blocklet & XMark. Stay tunned!
+        title: Welcome to Robert Mao's New Home
+        description: 
     image:
       - name: TwitterTimelineEmbed
         sourceType: profile
@@ -19,20 +19,11 @@ blocks:
       color: '#ffee00'
     description:
       - name: InfoBlock
-        title: My Current Project
+        title: What I am working on
         description: Checkout the coolest project I am working on!
     image:
       - name: YouTube
         videoId: K-J7qU1CNSo
     reverse: true
 
-  - name: BigText
-    tag: ''
-    text: The doc that brings words, data, & teams together.
-    size: 5em
-    bg: 'linear-gradient(to right top, #ed780e, #ea9800, #e0b600, #d0d400, #b8f03b)'
-  - name: BigText
-    text: In a world full of applications, why do documents and spreadsheets still run the world? And why haven’t they been updated in over 50 years? Coda is a new kind of doc that brings words, data, and teams together. It comes with a set of building blocks that anyone can combine to create a doc as powerful as an app.
-    size: 2em
-    bg: 'linear-gradient(to right top, #ede4e9, #ebe5f3, #e0e9fd, #cfefff, #c1f5fa, #bdf7f5, #bbf9ed, #bdfae4, #b5fbe8, #acfded, #a2fef2, #98fff8)'
 ---
