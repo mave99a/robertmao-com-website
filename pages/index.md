@@ -25,5 +25,4 @@ blocks:
       - name: YouTube
         videoId: K-J7qU1CNSo
     reverse: true
-
 ---
