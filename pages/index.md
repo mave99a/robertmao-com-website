@@ -14,7 +14,6 @@ blocks:
     background:
       image: 'linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12)'
     title: Follow me on Twitter
-    description: Embedded Twitter or YouTube easily
     image:
       - name: TwitterTimelineEmbed
         sourceType: profile
@@ -22,8 +21,8 @@ blocks:
   - name: SectionBlock
     background:
       color: '#ffee00'
-    title: Checkout my podcast
-    description: ArcBlock is the coolest project I am working on!
+    title: I work for ArcBlock
+    description: ArcBlock is a leading platform to empower developers building dApps, DID(Decentralized Identity) and blockchain applications
     image:
       - name: YouTube
         videoId: K-J7qU1CNSo
