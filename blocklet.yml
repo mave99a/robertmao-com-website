@@ -45,5 +45,6 @@ capabilities:
 screenshots: []
 children: []
 navigation:
-  - title: Home
+  - id: home
+    title: Home
     link: /
