@@ -1,6 +1,6 @@
 ---
 layout: MyLayout
-title: Examples
+title: Welcome to my digital homestead.
 description: Robert Mao
 
 blocks:
